@@ -282,6 +282,7 @@ class Config:
             #   1. _canonical_provider(provider)  → 别名转标准名，"qwen" → "dashscope"
             #   2. PROVIDERS[...]                 → 从注册表取出 Provider 对象
             #   3. .api_key()                     → 调用它的方法，去环境变量里读密钥
+            print(PROVIDERS[_canonical_provider(provider)])
             return PROVIDERS[_canonical_provider(provider)].api_key()
 
         except KeyError:
@@ -425,3 +426,6 @@ if __name__ == "__main__":
 
     print("\n[4] 打包模型参数")
     print(f"  {Config.get_model_config()}")
+
+    print(Config.EXCHANGE_RATES["CNY"])  # 期望 1.0
+    print(Config.MODEL_TEMPERATURE)
