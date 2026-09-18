@@ -1,11 +1,17 @@
 # AI Agent 徹底解説: 設計原理とエンジニアリング実践
 
+> 🌐 [オンラインで読む](https://bojieli.github.io/ai-agent-book/astro/ja/) — 言語切り替え、ハイライト、メモに対応しています。
+
 [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](../../LICENSE) [![PDF](https://img.shields.io/badge/PDF-download-success.svg)](#-電子書籍) [![Languages](https://img.shields.io/badge/translations-15%20languages-informational.svg)](#-電子書籍)
 [![Trending GitHub Project of the Day](https://img.shields.io/badge/GitHub%20Trending-Project%20of%20the%20Day-orange?logo=github)](https://github.com/trending)
 
 **[中文](../../README.md) · [English](../en/README.md) · [Español](../es/README.md) · [Bahasa Indonesia](../id/README.md) · [العربية](../ar/README.md) · [繁體中文（台灣）](../zh-TW/README.md) · [Русский](../ru/README.md) · [Tiếng Việt](../vi/README.md) · [தமிழ்](../ta/README.md) · 日本語 ← 現在 · [Türkçe](../tr/README.md) · [한국어](../ko/README.md) · [Magyar](../hu/README.md) · [עברית](../../README.he.md) · [Português (Brasil)](../../README.ptbr.md)**
 
 **Agent = LLM + コンテキスト + ツール** — 本書はこの中核となる公式を軸に、全10章を通じて AI エージェントを原理からエンジニアリング実践まで解説します。本文、図版、**93 個の付随実験**はすべてオープンソースです。ぜひ自分の手で実験を動かしてみてください。
+
+> 📚 **姉妹書『AI Infra 徹底解説: 定量分析とシステム設計』がオープンソースで公開されました** — [github.com/bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book)
+>
+> モデルを用いたアプリケーションを適切に開発するには、それが動作する基盤の理解も欠かせません。姉妹書では、モデルの学習と推論を支える AI Infra を扱います。パラメータとコンテキストの状態がどこに置かれ、計算がどのように実行され、複数のアクセラレータがどのように協調するのかを解説します。
 
 > 📢 **バージョン2.0の変更点（1.4との比較）：** 2.0では、旧第4章の「非同期インタラクション」部分と、旧第9章の「マルチモーダルAgent」に関する内容を統合し、新しい第6章「交互：観察空間と動作空間の拡張」として再構成しました。旧第6章「Agent の評価」、第7章「モデルのポストトレーニング」、第8章「Agent の継続的進化」はそれぞれ1章ずつ後ろに移り、現在は順に第7章、第8章、第9章となっています。
 >

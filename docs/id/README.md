@@ -1,13 +1,17 @@
 # Memahami AI Agent secara Mendalam: Prinsip Desain dan Praktik Rekayasa
 
-[![PDF](https://img.shields.io/badge/PDF-unduh-success.svg)](#-buku-elektronik) [![Baca daring](https://img.shields.io/badge/🌐_Baca_daring-bojieli.github.io-success?style=flat-square)](https://bojieli.github.io/ai-agent-book/) [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](../../LICENSE) [![Languages](https://img.shields.io/badge/terjemahan-15%20bahasa-informational.svg)](#-buku-elektronik)
+[![PDF](https://img.shields.io/badge/PDF-unduh-success.svg)](#-buku-elektronik) [![Baca daring](https://img.shields.io/badge/🌐_Baca_daring-bojieli.github.io-success?style=flat-square)](https://bojieli.github.io/ai-agent-book/astro/id/) [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](../../LICENSE) [![Languages](https://img.shields.io/badge/terjemahan-15%20bahasa-informational.svg)](#-buku-elektronik)
 [![Trending GitHub Project of the Day](https://img.shields.io/badge/GitHub%20Trending-Project%20of%20the%20Day-orange?logo=github)](https://github.com/trending)
 
 **[中文](../../README.md) · [English](../en/README.md) · [Español](../es/README.md) · Bahasa Indonesia ← saat ini · [العربية](../ar/README.md) · [繁體中文（台灣）](../zh-TW/README.md) · [Русский](../ru/README.md) · [Tiếng Việt](../vi/README.md) · [தமிழ்](../ta/README.md) · [日本語](../ja/README.md) · [Türkçe](../tr/README.md) · [한국어](../ko/README.md) · [Magyar](../hu/README.md) · [עברית](../../README.he.md) · [Português (Brasil)](../../README.ptbr.md)**
 
-> 📥 **[Unduh PDF / EPUB](#-buku-elektronik)** (direkomendasikan) — edisi PDF dan EPUB memberikan pengalaman membaca terbaik. Anda juga dapat [membaca secara daring](https://bojieli.github.io/ai-agent-book/) dengan pemilih bahasa, navigasi bab, dan pencarian teks lengkap.
+> 📥 **[Unduh PDF / EPUB](#-buku-elektronik)** (direkomendasikan) — edisi PDF dan EPUB memberikan pengalaman membaca terbaik. Anda juga dapat [membaca secara daring](https://bojieli.github.io/ai-agent-book/astro/id/) dengan pemilih bahasa, navigasi bab, dan sorotan dan catatan.
 
 **Agent = LLM + Konteks + Alat** — buku ini memakai rumus inti tersebut untuk membahas AI Agent, dari prinsip dasar hingga praktik rekayasa, dalam sepuluh bab. Naskah, ilustrasi, dan proyek pendampingnya tersedia sebagai sumber terbuka.
+
+> 📚 **Buku pendamping _Memahami AI Infra Secara Mendalam: Analisis Kuantitatif dan Desain Sistem_ kini sumber terbuka** — baca di [github.com/bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book)
+>
+> Mengembangkan aplikasi berbasis model dengan baik juga menuntut pemahaman tentang infrastruktur yang menjalankannya. Buku pendamping ini membahas AI Infra di balik pelatihan dan inferensi model: di mana parameter dan status konteks disimpan, bagaimana komputasi dijalankan, dan bagaimana beberapa akselerator bekerja sama.
 
 > 📢 **Perubahan pada versi 2.0 (dibandingkan 1.4):** Versi 2.0 menggabungkan bagian “interaksi asinkron” dari Bab 4 lama dengan materi tentang “Agent multimodal” dari Bab 9 lama, lalu menatanya ulang menjadi Bab 6 baru, “Interaksi: Perluasan Ruang Observasi dan Ruang Aksi”. Bab 6 lama (“Mengevaluasi Agent”), Bab 7 (“Pascapelatihan Model”), dan Bab 8 (“Evolusi Kontinual pada Agent”) masing-masing bergeser satu bab menjadi Bab 7, 8, dan 9.
 >

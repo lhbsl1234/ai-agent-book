@@ -1,13 +1,17 @@
 # Agentes de IA en Profundidad: Principios de Diseño y Práctica de Ingeniería
 
-[![PDF](https://img.shields.io/badge/PDF-descargar-success.svg)](#-libro-electrónico) [![Leer en línea](https://img.shields.io/badge/🌐_Leer_en_línea-bojieli.github.io-success?style=flat-square)](https://bojieli.github.io/ai-agent-book/) [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![Licencia](https://img.shields.io/badge/licencia-Apache--2.0-blue.svg)](../../LICENSE) [![Idiomas](https://img.shields.io/badge/traducciones-15%20idiomas-informational.svg)](#-libro-electrónico)
+[![PDF](https://img.shields.io/badge/PDF-descargar-success.svg)](#-libro-electrónico) [![Leer en línea](https://img.shields.io/badge/🌐_Leer_en_línea-bojieli.github.io-success?style=flat-square)](https://bojieli.github.io/ai-agent-book/astro/es/) [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![Licencia](https://img.shields.io/badge/licencia-Apache--2.0-blue.svg)](../../LICENSE) [![Idiomas](https://img.shields.io/badge/traducciones-15%20idiomas-informational.svg)](#-libro-electrónico)
 [![Tendencias en GitHub](https://img.shields.io/badge/GitHub%20Trending-Proyecto%20del%20Día-orange?logo=github)](https://github.com/trending)
 
 **[中文](../../README.md) · [English](../en/README.md) · Español ← actual · [Bahasa Indonesia](../id/README.md) · [العربية](../ar/README.md) · [繁體中文（台灣）](../zh-TW/README.md) · [Русский](../ru/README.md) · [Tiếng Việt](../vi/README.md) · [தமிழ்](../ta/README.md) · [日本語](../ja/README.md) · [Türkçe](../tr/README.md) · [한국어](../ko/README.md) · [Magyar](../hu/README.md) · [עברית](../../README.he.md) · [Português (Brasil)](../../README.ptbr.md)**
 
-> 📥 **[Descargar PDF / EPUB](#-libro-electrónico)** (recomendado) — las ediciones en PDF / EPUB ofrecen la mejor experiencia de lectura; también puedes [leer en línea](https://bojieli.github.io/ai-agent-book/) (conmutador de idiomas, árbol de capítulos desplegable, búsqueda de texto completo, recompilado automáticamente en cada push a main).
+> 📥 **[Descargar PDF / EPUB](#-libro-electrónico)** (recomendado) — las ediciones en PDF / EPUB ofrecen la mejor experiencia de lectura; también puedes [leer en línea](https://bojieli.github.io/ai-agent-book/astro/es/) (conmutador de idiomas, árbol de capítulos desplegable, resaltados y notas, recompilado automáticamente en cada push a main).
 
 **Agente = LLM + Contexto + Herramientas** — Este libro se desarrolla en torno a esta fórmula central a lo largo de 10 capítulos, llevando los Agentes de IA desde los principios teóricos hasta la práctica de ingeniería. El texto completo, las ilustraciones y los **95 experimentos complementarios** son de código abierto. Te invitamos a ejecutar los experimentos por ti mismo.
+
+> 📚 **El libro hermano, _AI Infra en Profundidad: Análisis Cuantitativo y Diseño de Sistemas_, ya es de código abierto** — léelo en [github.com/bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book)
+>
+> Desarrollar buenas aplicaciones basadas en modelos también exige entender la infraestructura sobre la que se ejecutan. El libro hermano trata la AI Infra que sostiene el entrenamiento y la inferencia: dónde residen los parámetros y el estado del contexto, cómo se ejecuta el cómputo y cómo colaboran varios aceleradores.
 
 > 📢 **Cambios de la versión 2.0 (respecto a la 1.4):** La versión 2.0 combina la sección «interacción asíncrona» del antiguo capítulo 4 con el contenido sobre «Agentes multimodales» del antiguo capítulo 9, y los reorganiza como el nuevo capítulo 6, «Interacción: la expansión de los espacios de observación y de acción». Los antiguos capítulos 6 («Evaluación de Agentes»), 7 («Post-entrenamiento de Modelos») y 8 («La Evolución Continua del Agente») se desplazan un capítulo y ahora son, respectivamente, los capítulos 7, 8 y 9.
 >
@@ -31,7 +35,7 @@
 > - **Turco** (traducción de la comunidad, por [@memisemre](https://github.com/memisemre)): [PDF](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-tr.pdf) · [EPUB](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-tr.epub)
 > - **Coreano** (traducción de la comunidad): [PDF](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-ko.pdf) · [EPUB](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-ko.epub)
 >
-> 🌐 También puedes [leer en línea](https://bojieli.github.io/ai-agent-book/) — conmutador multilingüe, árbol de capítulos desplegable, búsqueda de texto completo y enlaces directos a los experimentos complementarios. Recompilado automáticamente con cada push a main.
+> 🌐 También puedes [leer en línea](https://bojieli.github.io/ai-agent-book/astro/es/) — conmutador multilingüe, árbol de capítulos desplegable, resaltados y notas y enlaces directos a los experimentos complementarios. Recompilado automáticamente con cada push a main.
 
 El código fuente en chino está en [`book/`](../../book/); las versiones en inglés, español, árabe, chino tradicional (Taiwán), ruso, tamil, vietnamita, japonés, turco y coreano son contribuciones de la comunidad (pueden ir por detrás del original en chino), ubicadas en [`book-en/`](../../book-en/), [`book-es/`](../../book-es/), [`book-ar/`](../../book-ar/), [`book-zhtw/`](../../book-zhtw/), [`book-ru/`](../../book-ru/), [`book-ta/`](../../book-ta/), [`book-vi/`](../../book-vi/), [`book-ja/`](../../book-ja/), [`book-tr/`](../../book-tr/) y [`book-ko/`](../../book-ko/) respectivamente.
 

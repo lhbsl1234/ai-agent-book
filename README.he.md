@@ -1,12 +1,16 @@
 # סוכני AI לעומק: עקרונות עיצוב ופרקטיקה הנדסית
 
-[![PDF](https://img.shields.io/badge/PDF-הורדה-success.svg)](#ספר-אלקטרוני) [![קריאה מקוונת](https://img.shields.io/badge/🌐_קריאה_מקוונת-bojieli.github.io-success?style=flat-square)](https://bojieli.github.io/ai-agent-book/index.he/) [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE) [![Languages](https://img.shields.io/badge/תרגומים-15%20שפות-informational.svg)](#ספר-אלקטרוני)
+[![PDF](https://img.shields.io/badge/PDF-הורדה-success.svg)](#ספר-אלקטרוני) [![קריאה מקוונת](https://img.shields.io/badge/🌐_קריאה_מקוונת-bojieli.github.io-success?style=flat-square)](https://bojieli.github.io/ai-agent-book/astro/he/) [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE) [![Languages](https://img.shields.io/badge/תרגומים-15%20שפות-informational.svg)](#ספר-אלקטרוני)
 
 [中文](README.md) · [English](docs/en/README.md) · [Español](docs/es/README.md) · [Bahasa Indonesia](docs/id/README.md) · [العربية](docs/ar/README.md) · [繁體中文（台灣）](docs/zh-TW/README.md) · [Русский](docs/ru/README.md) · [Tiếng Việt](docs/vi/README.md) · [தமிழ்](docs/ta/README.md) · [日本語](docs/ja/README.md) · [Türkçe](docs/tr/README.md) · [한국어](docs/ko/README.md) · [Magyar](docs/hu/README.md) · **עברית** ← נוכחי · [Português (Brasil)](README.ptbr.md)
 
-> 📥 **[הורדת PDF / EPUB](#ספר-אלקטרוני)** (מומלץ) — מהדורות ה־PDF וה־EPUB מספקות את חוויית הקריאה הטובה ביותר. ניתן גם [לקרוא באתר](https://bojieli.github.io/ai-agent-book/index.he/) עם ניווט מלא מימין לשמאל, מעבר בין שפות וחיפוש בטקסט המלא.
+> 📥 **[הורדת PDF / EPUB](#ספר-אלקטרוני)** (מומלץ) — מהדורות ה־PDF וה־EPUB מספקות את חוויית הקריאה הטובה ביותר. ניתן גם [לקרוא באתר](https://bojieli.github.io/ai-agent-book/astro/he/) עם ניווט מלא מימין לשמאל, מעבר בין שפות והדגשות והערות.
 
 **סוכן = LLM + הקשר + כלים** — הספר בנוי סביב נוסחה זו ומציג בעשרה פרקים את העקרונות ואת הפרקטיקה ההנדסית של סוכני AI.
+
+> 📚 **ספר האחות _הבנה מעמיקה של AI Infra: ניתוח כמותי ותכנון מערכות_ שוחרר בקוד פתוח** — [github.com/bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book)
+>
+> כדי לפתח היטב יישומים מבוססי מודלים צריך להבין גם את התשתית שעליה הם רצים. ספר האחות עוסק ב־AI Infra שתומכת באימון ובהסקה של מודלים: היכן נשמרים הפרמטרים ומצב ההקשר, כיצד מתבצע החישוב, וכיצד מאיצים רבים פועלים יחד.
 
 > 📢 **השינויים בגרסה 2.0 לעומת 1.4:** גרסה 2.0 מאחדת את החלק „אינטראקציה אסינכרונית” מהפרק הרביעי הקודם עם התוכן על „סוכנים רב־מודאליים” מהפרק התשיעי הקודם, ומארגנת אותם מחדש כפרק השישי החדש, „אינטראקציה: הרחבת מרחבי התצפית והפעולה”. הפרקים הקודמים 6 („הערכת סוכנים”), 7 („אימון־על של מודלים”) ו־8 („התפתחות מתמשכת של סוכנים”) הוזזו כל אחד בפרק אחד, וכעת הם פרקים 7, 8 ו־9 בהתאמה.
 >

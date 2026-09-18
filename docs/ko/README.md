@@ -1,13 +1,17 @@
 # AI 에이전트를 깊이 이해하기: 설계 원리와 엔지니어링 실전
 
-[![PDF](https://img.shields.io/badge/PDF-다운로드-success.svg)](#-전자책) [![온라인으로 읽기](https://img.shields.io/badge/🌐_온라인으로_읽기-bojieli.github.io-success?style=flat-square)](https://bojieli.github.io/ai-agent-book/) [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](../../LICENSE) [![Languages](https://img.shields.io/badge/번역-15개%20언어-informational.svg)](#-전자책)
+[![PDF](https://img.shields.io/badge/PDF-다운로드-success.svg)](#-전자책) [![온라인으로 읽기](https://img.shields.io/badge/🌐_온라인으로_읽기-bojieli.github.io-success?style=flat-square)](https://bojieli.github.io/ai-agent-book/astro/ko/) [![Stars](https://img.shields.io/github/stars/bojieli/ai-agent-book?style=social)](https://github.com/bojieli/ai-agent-book) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](../../LICENSE) [![Languages](https://img.shields.io/badge/번역-15개%20언어-informational.svg)](#-전자책)
 [![Trending GitHub Project of the Day](https://img.shields.io/badge/GitHub%20Trending-Project%20of%20the%20Day-orange?logo=github)](https://github.com/trending)
 
 **[中文](../../README.md) · [English](../en/README.md) · [Español](../es/README.md) · [Bahasa Indonesia](../id/README.md) · [العربية](../ar/README.md) · [繁體中文（台灣）](../zh-TW/README.md) · [Русский](../ru/README.md) · [Tiếng Việt](../vi/README.md) · [தமிழ்](../ta/README.md) · [日本語](../ja/README.md) · [Türkçe](../tr/README.md) · 한국어 ← 현재 · [Magyar](../hu/README.md) · [עברית](../../README.he.md) · [Português (Brasil)](../../README.ptbr.md)**
 
-> 📥 **[PDF / EPUB 다운로드](#-전자책)**(권장) — PDF와 EPUB 판본에서 가장 좋은 읽기 경험을 제공합니다. [온라인 판본](https://bojieli.github.io/ai-agent-book/)에서는 언어 전환, 접을 수 있는 장별 탐색, 전체 텍스트 검색을 이용할 수 있습니다.
+> 📥 **[PDF / EPUB 다운로드](#-전자책)**(권장) — PDF와 EPUB 판본에서 가장 좋은 읽기 경험을 제공합니다. [온라인 판본](https://bojieli.github.io/ai-agent-book/astro/ko/)에서는 언어 전환, 접을 수 있는 장별 탐색, 강조 표시와 메모을 이용할 수 있습니다.
 
 **에이전트 = LLM + 컨텍스트 + 도구** — 이 책은 이 핵심 공식을 중심으로 10개 장에 걸쳐 AI 에이전트의 원리부터 엔지니어링 실전까지 설명합니다. 본문과 그림, **94개의 연계 실습**을 모두 오픈 소스로 공개합니다.
+
+> 📚 **자매편 『AI 인프라를 깊이 이해하기: 정량 분석과 시스템 설계』가 오픈 소스로 공개되었습니다** — [github.com/bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book)
+>
+> 모델 기반 애플리케이션을 제대로 개발하려면 그것이 돌아가는 인프라도 이해해야 합니다. 자매편은 모델 학습과 추론을 떠받치는 AI 인프라를 다룹니다. 파라미터와 컨텍스트 상태가 어디에 저장되고, 연산이 어떻게 수행되며, 여러 가속기가 어떻게 협력하는지를 설명합니다.
 
 > 📢 **1.4 대비 2.0 버전의 변경 사항:** 2.0 버전은 기존 4장의 “비동기 상호작용” 부분과 기존 9장의 “멀티모달 에이전트” 내용을 합쳐, 새로운 6장 “상호작용: 관찰 공간과 행동 공간의 확장”으로 재구성했습니다. 기존 6장 “에이전트 평가”, 7장 “모델 사후 학습”, 8장 “에이전트의 지속적 진화”는 각각 한 장씩 뒤로 이동하여 현재 7장, 8장, 9장이 되었습니다.
 >
@@ -31,7 +35,7 @@
 > - **아랍어**([@TheSyBuilder](https://github.com/TheSyBuilder)): [PDF](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-ar.pdf) · [EPUB](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-ar.epub)
 > - **터키어**([@memisemre](https://github.com/memisemre)): [PDF](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-tr.pdf) · [EPUB](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-tr.epub)
 >
-> 🌐 [온라인으로도 읽을 수 있습니다](https://bojieli.github.io/ai-agent-book/). `main` 브랜치가 갱신될 때마다 사이트가 자동으로 다시 빌드됩니다.
+> 🌐 [온라인으로도 읽을 수 있습니다](https://bojieli.github.io/ai-agent-book/astro/ko/). `main` 브랜치가 갱신될 때마다 사이트가 자동으로 다시 빌드됩니다.
 
 중국어 원문은 [`book/`](../../book/)에 있으며, 한국어판은 [`book-ko/`](../../book-ko/)에 있습니다. 다른 언어판은 각 언어 디렉터리에 있는 커뮤니티 번역으로, 중국어 원문보다 갱신이 늦을 수 있습니다.
 
